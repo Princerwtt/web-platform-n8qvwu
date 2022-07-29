@@ -1,0 +1,44 @@
+.main {
+  display: grid;
+  justify-content: space-around;
+  background-color: aliceblue;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+.first {
+  background: linear-gradient(to left, red, blue, green);
+  width: 100%;
+  height: 200px;
+}
+
+.second {
+  background: linear-gradient(to right, yellow, black, pink);
+  width: 100%;
+  height: 200px;
+}
+
+.third {
+  background: linear-gradient(to bottom, red, green, aqua);
+  width: 100%;
+  height: 200px;
+}
+.fourth {
+  background: linear-gradient(to top, green, grey, gold);
+  width: 100%;
+  height: 200px;
+}
+.five {
+  background: radial-gradient(red, rgb(12, 226, 84), grey, aqua);
+  width: 100%;
+  height: 200px;
+}
+.six {
+  background: conic-gradient(
+    rgb(124, 18, 211),
+    blue,
+    rgb(211, 25, 25),
+    rgb(54, 78, 211)
+  );
+  width: 100%;
+  height: 200px;
+}
